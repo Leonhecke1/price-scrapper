@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leonhecke1/price-scrapper.git"
@@ -13,14 +11,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Leonhecke1/price-scrapper/issues"
   },
   "homepage": "https://github.com/Leonhecke1/price-scrapper#readme",
   "devDependencies": {
+    "@playwright/test": "^1.58.1",
     "@types/node": "^25.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "playwright": "^1.58.1"
   }
 }
